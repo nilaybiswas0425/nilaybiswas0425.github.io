@@ -1,41 +1,19 @@
 
-# ==========================================
-# Nilay's Tech Notes - Jekyll Configuration
-# ==========================================
-
-# Website information
 title: "Nilay's Tech Notes"
 description: "Practical learning notes on Python, AWS, Boto3, Generative AI and Data Engineering."
 
-# Author information
 author:
   name: "Nilay Biswas"
 
-# Website theme
 theme: minima
 
-# Navigation menu
 header_pages:
   - about.md
 
-# Blog settings
 show_excerpts: true
 
-# Plugins
 plugins:
   - jekyll-feed
 
-# Markdown settings
 markdown: kramdown
 highlighter: rouge
-
-# Permalink structure for blog articles
-permalink: /blog/:year/:month/:day/:title/
-
-# Exclude unnecessary files from the website
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
