@@ -1,1 +1,32 @@
-# Website sidebar navigation
+- title: Python
+  url: /python/
+  children:
+    - title: Python Basics
+      url: /python/basics/
+    - title: Boto3
+      url: /boto3/
+      children:
+        - title: Introduction to Boto3
+          url: /boto3/introduction/
+        - title: AWS Connection
+          url: /boto3/aws-connection/
+        - title: Boto3 Session
+          url: /boto3/session/
+        - title: S3 Bucket Operations
+          url: /boto3/s3-bucket-operations/
+        - title: Upload and Download Files
+          url: /boto3/upload-download-files/
+        - title: S3 Replication
+          url: /boto3/s3-replication/
+
+- title: AWS & Cloud
+  url: /aws/
+
+- title: Snowflake
+  url: /snowflake/
+
+- title: Projects
+  url: /projects/
+  children:
+    - title: Insurance RAG Chatbot
+      url: /projects/insurance-rag-chatbot/
