@@ -1,0 +1,75 @@
+/* Documentation layout */
+.docs-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 35px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+/* Left sidebar */
+.sidebar {
+  border-right: 1px solid #e5e5e5;
+  padding: 10px 20px 30px 0;
+  font-size: 14px;
+}
+
+.sidebar h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.sidebar-item {
+  margin: 12px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar a:hover,
+.sidebar summary:hover {
+  color: #007acc;
+}
+
+.sidebar summary {
+  cursor: pointer;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-left: 15px;
+  padding-left: 12px;
+  border-left: 1px solid #e5e5e5;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+.sidebar details details summary {
+  font-weight: 500;
+}
+
+/* Right content */
+.docs-content {
+  min-width: 0;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 700px) {
+  .docs-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .sidebar {
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0 20px;
+  }
+}
