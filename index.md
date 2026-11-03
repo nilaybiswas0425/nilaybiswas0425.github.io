@@ -4,15 +4,15 @@ layout: home
 title: "Nilay's Tech Notes"
 ---
 
-Welcome! I'm Nilay Biswas.
+# Welcome to Nilay's Tech Notes!
 
-I'm a technology professional with 17+ years of experience in software development, data engineering and project management.
+I'm Nilay Biswas, a technology professional with 17+ years of experience in software development, data engineering and project management.
 
 This blog documents my practical learning journey in cloud computing, Python, AWS and Generative AI.
 
 Here, I share hands-on experiments, technical tutorials, project implementations and lessons learned.
 
-## What I'm learning and building
+## Topics
 
 - Python and Boto3
 - AWS Cloud Services
@@ -22,4 +22,4 @@ Here, I share hands-on experiments, technical tutorials, project implementations
 
 ## Learn. Build. Share.
 
-My goal is to turn practical experiments into useful technical knowledge that others can learn from.
+Turning practical experiments into useful technical knowledge.
