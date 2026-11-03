@@ -1,8 +1,4 @@
 
----
-layout: home
-title: "Nilay's Tech Notes"
----
 
 # Welcome to Nilay's Tech Notes!
 
