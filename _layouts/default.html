@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper docs-layout">
+
+        <aside class="sidebar">
+          <h3>Learning Topics</h3>
+
+          {% for item in site.data.navigation %}
+            <div class="sidebar-item">
+              {% if item.children %}
+                <details>
+                  <summary>{{ item.title }}</summary>
+
+                  <ul>
+                    {% for child in item.children %}
+                      <li>
+                        {% if child.children %}
+                          <details>
+                            <summary>{{ child.title }}</summary>
+                            <ul>
+                              {% for subchild in child.children %}
+                                <li>
+                                  <a href="{{ subchild.url | relative_url }}">
+                                    {{ subchild.title }}
+                                  </a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          </details>
+                        {% else %}
+                          <a href="{{ child.url | relative_url }}">
+                            {{ child.title }}
+                          </a>
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                </details>
+              {% else %}
+                <a href="{{ item.url | relative_url }}">
+                  {{ item.title }}
+                </a>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </aside>
+
+        <article class="docs-content">
+          {{ content }}
+        </article>
+
+      </div>
+    </main>
+
+    {% include footer.html %}
+  </body>
+</html>
