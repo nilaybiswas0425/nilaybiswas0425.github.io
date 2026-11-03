@@ -1,15 +1,20 @@
 /* Documentation layout */
-.docs-layout {
+.page-content .docs-layout {
   display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
   gap: 35px;
+  width: 100%;
   max-width: 1200px;
+  box-sizing: border-box;
   margin: 0 auto;
-  padding-top: 25px;
+  padding: 25px 20px;
 }
 
 /* Left sidebar */
-.sidebar {
+.docs-layout .sidebar {
+  display: block;
+  width: auto;
+  min-width: 0;
   border-right: 1px solid #e5e5e5;
   padding: 10px 20px 30px 0;
   font-size: 14px;
@@ -56,18 +61,20 @@
 }
 
 /* Right content */
-.docs-content {
+.docs-layout .docs-content {
+  display: block;
+  width: auto;
   min-width: 0;
 }
 
-/* Mobile layout */
+/* Mobile */
 @media screen and (max-width: 700px) {
-  .docs-layout {
+  .page-content .docs-layout {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 
-  .sidebar {
+  .docs-layout .sidebar {
     border-right: none;
     border-bottom: 1px solid #e5e5e5;
     padding: 10px 0 20px;
