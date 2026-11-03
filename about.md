@@ -1,53 +1,28 @@
 
 ---
 layout: page
-title: About Me
+title: About
 permalink: /about/
 ---
 
-# Hello, I'm Nilay Biswas!
+# About Me
 
-Welcome to my technical learning space.
+Hello! I'm Nilay Biswas.
 
-I'm a technology professional with **17+ years of experience** in software development, data engineering, testing, maintenance and project management.
+I'm a technology professional with 17+ years of experience in software development, data engineering, testing and project management.
 
-Throughout my career, I've worked with enterprise data platforms, integration technologies and cloud-based solutions, particularly in the insurance domain.
+## My Technical Interests
 
-## My Technical Background
+- Python and Boto3
+- AWS Cloud Services
+- Generative AI and RAG
+- Snowflake and Data Engineering
+- Cloud Architecture
 
-My experience and interests include:
+## My Learning Philosophy
 
-- **Programming:** Python, SQL, PL/SQL, C/C++
-- **Data Engineering:** ETL, Talend, IICS, Snowflake
-- **Cloud:** Amazon Web Services (AWS)
-- **Generative AI:** Amazon Bedrock, RAG and vector databases
-- **DevOps:** Git, Jenkins, Unix Shell Scripting
+I believe in learning by doing.
 
-## My Learning Journey
-
-Technology is constantly evolving, and I believe continuous learning is essential.
-
-Currently, I'm exploring:
-
-- AWS architecture and data engineering
-- Python and Boto3 automation
-- Amazon S3 and S3 Vectors
-- Generative AI and Retrieval-Augmented Generation (RAG)
-- Snowflake and modern data architectures
-
-## Why This Blog?
-
-I created Nilay's Tech Notes to document my hands-on experiments, share practical examples and explain technical concepts in simple language.
-
-I believe the best way to learn technology is to:
-
-1. Understand the fundamentals.
-2. Build something practical.
-3. Document what you learn.
-4. Share knowledge with others.
-
-## My Philosophy
+I use this blog to document my hands-on experiments, technical notes, practical projects and lessons learned.
 
 **Learn. Build. Document. Share.**
-
-Thanks for visiting Nilay's Tech Notes!
