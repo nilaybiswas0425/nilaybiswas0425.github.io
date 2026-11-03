@@ -1,7 +1,10 @@
+
 title: "Nilay's Tech Notes"
+
 description: "Practical learning notes on Python, AWS, Boto3, Generative AI and Data Engineering."
 
-author: "Nilay Biswas"
+author:
+  name: "Nilay Biswas"
 
 theme: minima
 
